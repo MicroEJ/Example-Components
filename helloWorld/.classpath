@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="var" path="EDC-1.2"/>
+	<classpathentry kind="var" path="EJ.COMPONENTS-2.0"/>
+	<classpathentry kind="var" path="LOGGING-LIGHTWEIGHT-2.0"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/helloPublisher"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/helloUser"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
