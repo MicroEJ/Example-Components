@@ -9,12 +9,14 @@ package com.is2t.examples.hello.user;
 import com.is2t.examples.hello.Hello;
 
 /**
- *
+ * Application that uses the {@link Hello} service to say hello to everyone!
  */
 public class SayHelloToEveryone {
 
+	private static final int SECOND = 1000;
+
 	private static final String[] ALL_PEOPLE = { "John", "Brice", "Frederick", "Alan", "Peter", "Jeremiah", "Stanley",
-		"Jensen", "William", "Steven", "Sebastian", "Jeremy", "Adrian", "Julian", "Gareth" };
+			"Jensen", "William", "Steven", "Sebastian", "Jeremy", "Adrian", "Julian", "Gareth" };
 
 	private Hello hello;
 	private boolean running;
@@ -40,14 +42,17 @@ public class SayHelloToEveryone {
 			@Override
 			public void run() {
 				while (SayHelloToEveryone.this.running) {
+					// get the current person…
 					String name = ALL_PEOPLE[SayHelloToEveryone.this.currentIndex];
+					// … say hello!
 					SayHelloToEveryone.this.hello.sayHello(name);
-					SayHelloToEveryone.this.currentIndex = (SayHelloToEveryone.this.currentIndex + 1)
-							% ALL_PEOPLE.length;
 					try {
-						Thread.sleep(1000);
+						Thread.sleep(SECOND);
 					} catch (InterruptedException e) {
 					}
+					// prepare the next person
+					SayHelloToEveryone.this.currentIndex = (SayHelloToEveryone.this.currentIndex + 1)
+							% ALL_PEOPLE.length;
 				}
 			}
 		};

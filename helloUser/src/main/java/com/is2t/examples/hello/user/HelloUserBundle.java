@@ -11,6 +11,9 @@ import com.is2t.examples.hello.Hello;
 import ej.components.BundleActivator;
 import ej.components.RegistryFactory;
 
+/**
+ * Bundle that retrieves the {@link Hello} service and holds an application that uses it.
+ */
 public class HelloUserBundle implements BundleActivator {
 
 	private SayHelloToEveryone sayHelloToEveryone;

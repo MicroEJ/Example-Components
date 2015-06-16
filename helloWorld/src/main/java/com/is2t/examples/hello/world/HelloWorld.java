@@ -6,21 +6,34 @@
  */
 package com.is2t.examples.hello.world;
 
+import java.util.logging.Logger;
+
 import ej.components.Registry;
 import ej.components.RegistryFactory;
 
+/**
+ * Main class.
+ */
 public class HelloWorld {
 
+	private static final int RUNNING_DURATION = 20000;
+
+	/**
+	 * Main method.
+	 *
+	 * @param args
+	 *            java arguments.
+	 */
 	public static void main(String[] args) {
-		System.out.println("Startup the registry");
+		Logger.getGlobal().info("Startup the registry");
 		Registry registry = RegistryFactory.getRegistry();
 		RegistryFactory.startupRegistry(registry, "/properties/services.bundles");
 
 		try {
-			Thread.sleep(20000);
+			Thread.sleep(RUNNING_DURATION);
 		} catch (InterruptedException e) {
 		}
-		System.out.println("Stop the registry");
+		Logger.getGlobal().info("Stop the registry");
 		registry.stop("");
 	}
 
