@@ -12,6 +12,8 @@ N/A
 ## Dependencies
 _All dependencies are retrieved transitively by Ivy resolver_.
 
+This project depends on the following projects:
+ * [ej.examples.components.helloworld.service](ej.examples.components.helloworld.service/).
 
 # Source
 N/A

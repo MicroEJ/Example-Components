@@ -11,7 +11,7 @@ It contains a service implementation and two bundles: the service publisher and 
 
 ## Run on device
 ### Build
-1. Right Click on [HelloWorld.java](/ej.examples.components.helloworld/src/main/java/ej/examples/components/helloworld/HelloWorld.java)
+1. Right Click on [HelloWorld.java](src/main/java/ej/examples/components/helloworld/HelloWorld.java)
 2. Select **Run as -> Run Configuration** 
 3. Select **MicroEJ Application** configuration kind
 4. Click on **New launch configuration** icon
@@ -35,6 +35,10 @@ It contains a service implementation and two bundles: the service publisher and 
 ## Dependencies
 _All dependencies are retrieved transitively by Ivy resolver_.
 
+This project depends on the following projects:
+ * [ej.examples.components.helloworld.publisher](ej.examples.components.helloworld.publisher/).
+ * [ej.examples.components.helloworld.user](ej.examples.components.helloworld.user/).
+ 
 # Source
 N/A
 
