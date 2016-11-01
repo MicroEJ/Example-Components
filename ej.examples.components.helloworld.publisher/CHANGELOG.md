@@ -16,7 +16,7 @@ Bugfixes:
 Features:
   * Port to MicroEJ 4.0.
    
-## 1.0.0 
+## 1.0.0 (2015-06-15)
 Features:
   * Initial revision.
 

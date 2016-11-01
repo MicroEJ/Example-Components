@@ -24,7 +24,6 @@ It contains a service implementation and two bundles: the service publisher and 
 7. Press **Run**
 8. Copy the generated `.out` file path
 
-
 ### Flash
 1. Use the appropriate flashing tool.
 

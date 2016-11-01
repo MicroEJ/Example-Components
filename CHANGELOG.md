@@ -12,7 +12,7 @@ Bugfixes:
   * List here the bug fixes.
 -->
 
-## 2.0.0 (2016-11-01)
+## 8.0.0 (2016-11-01)
 Features:
   * Port to MicroEJ 4.0.
    

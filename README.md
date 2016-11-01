@@ -1,5 +1,5 @@
 # Overview
-This project illustrates the _ej.components_ library.
+This project illustrates the _ej.library.runtime.components_ library.
 It contains a service implementation and two bundles: the service publisher and the service user.
 
 ## Project structure
@@ -15,19 +15,21 @@ It contains a service implementation and two bundles: the service publisher and 
   - `src/main/java`: Java sources.
   - `src/main/resources`: the properties and bundles list.
   - `launches`: the MicroEJ launches.
+  
+## Usage
+See [README.md](/ej.examples.components.helloWorld/README.md).
 
 # Requirements
-* MicroEJ Studio or SDK 4.0 or later
-* A platform with at least:
-	* EDC-1.2 or higher
+See [README.md](/ej.examples.components.helloWorld/README.md).
 
-## Usage
-To launch the application, right-click on the `helloWorld` project,
-select `Run as`, `MicroEJ Application` and choose `Hello World Components (Sim)`.
-Another launcher is available to execute on the target board.
+# Source
+See [README.md](/ej.examples.components.helloWorld/README.md).
 
-## Changes
-2015/06/15: Initial version.
+# Restrictions
+See [README.md](/ej.examples.components.helloWorld/README.md).
+
+# Changes
+See [CHANGELOG.md](/CHANGELOG.md).
 
 ## License
-See the license file `LICENSE.md` located at the root of this repository.
+See [LICENSE.txt](/LICENSE.txt).
