@@ -2,28 +2,24 @@
 This project illustrates the _ej.components_ library.
 It contains a service implementation and two bundles: the service publisher and the service user.
 
-## Project Setup
-First of all, you have to download the repository by using the Download button or by cloning the repository.
-After having retrieved the repository content, open your MicroEJ and then import Existing project into workspace by selecting either the ZIP file or the root directory.
-
-### Requirements
-- JRE 7 (or later) x86
-- MicroEJ 3.1 or later
-- A Java platform to test with at least: EDC 1.2 & EJ.COMPONENTS 2.0 & LOGGING-LIGHTWEIGHT 2.0.
-
-### Project structure
-- `helloService`
+## Project structure
+- `ej.examples.components.helloworld.service`
   - `[…]/Hello.java`: the interface defining the service.
-- `helloPublisher`
+- `ej.examples.components.helloworld.publisher`
   - `[…]/HelloPrint.java`: an implementation of the service.
   - `[…]/HelloPublisherBundle.java`: the bundle publishing the service implementation.
-- `helloUser`
+- `ej.examples.components.helloworld.user`
   - `[…]/SayHelloToEveryone.java`: an application that uses the service.
   - `[…]/HelloUserBundle.java`: the bundle retrieving the service.
-- `helloWorld`: the startup (main) of the example.
+- `ej.examples.components.helloworld`: the startup (main) of the example.
   - `src/main/java`: Java sources.
   - `src/main/resources`: the properties and bundles list.
   - `launches`: the MicroEJ launches.
+
+# Requirements
+* MicroEJ Studio or SDK 4.0 or later
+* A platform with at least:
+	* EDC-1.2 or higher
 
 ## Usage
 To launch the application, right-click on the `helloWorld` project,
