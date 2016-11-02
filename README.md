@@ -32,4 +32,4 @@ See [README.md](/ej.examples.components.helloWorld/README.md).
 See [CHANGELOG.md](/CHANGELOG.md).
 
 ## License
-See [LICENSE.txt](/LICENSE.txt).
+See [LICENSE.md](/LICENSE.md).
