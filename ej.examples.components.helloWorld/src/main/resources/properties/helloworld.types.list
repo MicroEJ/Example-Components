@@ -3,7 +3,7 @@
 # Copyright 2016 IS2T. All rights reserved.
 # Use of this source code is subject to license terms.
 
-# Type to embed in the Java application (not statically linked).
+# Types to embed in the Java application (not statically linked).
 # Loaded from the services.bundles
 ej.examples.components.helloworld.user.HelloUserBundle
 ej.examples.components.helloworld.publisher.HelloPublisherBundle

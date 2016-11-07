@@ -1,5 +1,5 @@
 # Overview
-This library contains the interface of the service.
+This library contains the definition (interface) of the 'Hello' service.
 
 # Usage
 N/A
@@ -11,7 +11,6 @@ N/A
 
 ## Dependencies
 _All dependencies are retrieved transitively by Ivy resolver_.
-
 
 # Source
 N/A
