@@ -2,8 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ej.examples.components.helloworld.publisher"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ej.examples.components.helloworld.user"/>
-	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=ej.examples.components.helloworld&amp;ivyXmlPath=module.ivy&amp;confs=*&amp;acceptedTypes=jar%2Cbundle%2Cejb%2Cmaven-plugin&amp;alphaOrder=false&amp;resolveInWorkspace=true&amp;transitiveResolve=true&amp;readOSGiMetadata=false&amp;retrievedClasspath=false"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.microej.example.components.helloworld.publisher"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.microej.example.components.helloworld.user"/>
+	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=com.microej.example.components.helloworld&amp;ivyXmlPath=module.ivy&amp;confs=*&amp;acceptedTypes=jar%2Cbundle%2Cejb%2Cmaven-plugin&amp;alphaOrder=false&amp;resolveInWorkspace=true&amp;transitiveResolve=true&amp;readOSGiMetadata=false&amp;retrievedClasspath=false"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

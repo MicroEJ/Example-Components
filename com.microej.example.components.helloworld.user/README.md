@@ -14,7 +14,7 @@ N/A
 _All dependencies are retrieved transitively by Ivy resolver_.
 
 This project depends on the following projects:
- * [ej.examples.components.helloworld.service](../ej.examples.components.helloworld.service/).
+ * [com.microej.example.components.helloworld.service](../com.microej.example.components.helloworld.service/).
 
 # Source
 N/A

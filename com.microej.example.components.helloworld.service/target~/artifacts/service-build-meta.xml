@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><properties>
+	<property name="definition" value="${buildDefinitionId}" />
+	<property name="engine" value="${buildEngineId}" />
+	<property name="hostname" value="${buildEngineHostName}" />
+	<property name="label" value="20161229-0933" />
+	<property name="repositoryAddress" value="${repositoryAddress}" />
+	<property name="requester" value="privron" />
+</properties>
