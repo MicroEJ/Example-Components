@@ -5,7 +5,7 @@
 	Use of this source code is subject to license terms.
 -->
 <ivy-module version="2.0" xmlns:ea="http://www.easyant.org" xmlns:m="http://ant.apache.org/ivy/extra"> 
-	<info organisation="ej.examples.components" module="helloworld" status="integration" revision="2.0.0">
+	<info organisation="ej.examples.components" module="helloworld" status="integration" revision="3.0.0">
 		<ea:build organisation="com.is2t.easyant.buildtypes" module="build-microej-javalib" revision="3.+">
 		</ea:build>
 	</info>
@@ -28,7 +28,7 @@
 		
 		<dependency org="ej.library.runtime" name="components" rev="[3.0.0,4.0.0[" />
 		
-		<dependency org="ej.examples.components.helloworld" name="publisher" rev="[2.0.0-RC0,3.0.0-RC0[" />
-		<dependency org="ej.examples.components.helloworld" name="user" rev="[2.0.0-RC0,3.0.0-RC0[" />
+		<dependency org="ej.examples.components.helloworld" name="publisher" rev="[3.0.0-RC0,4.0.0-RC0[" />
+		<dependency org="ej.examples.components.helloworld" name="user" rev="[3.0.0-RC0,4.0.0-RC0[" />
 	</dependencies>
 </ivy-module>

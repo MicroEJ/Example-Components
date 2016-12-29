@@ -1,17 +1,7 @@
-<!--
-	Markdown
--->
-<!--
-Changelog template:
-
-## Revision (YYYY-mm-dd)
+## 12.0.0 (2016-12-29)
 Features:
-  * List here the new features.
+  * Change organization.
   
-Bugfixes:
-  * List here the bug fixes.
--->
-
 ## 8.0.0 (2016-11-01)
 Features:
   * Port to MicroEJ 4.0.

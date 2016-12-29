@@ -37,8 +37,8 @@ It contains a service implementation and two bundles: the service publisher and 
 _All dependencies are retrieved transitively by Ivy resolver_.
 
 This project depends on the following projects:
- * [ej.examples.components.helloworld.publisher](ej.examples.components.helloworld.publisher/).
- * [ej.examples.components.helloworld.user](ej.examples.components.helloworld.user/).
+ * [ej.examples.components.helloworld.publisher](../ej.examples.components.helloworld.publisher/).
+ * [ej.examples.components.helloworld.user](../ej.examples.components.helloworld.user/).
  
 # Source
 N/A
