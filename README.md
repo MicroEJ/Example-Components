@@ -20,16 +20,16 @@ It contains a service implementation and two bundles: the service publisher and 
 
   
 ## Usage
-See [README.md](com.microej.example.components.helloWorld/README.md).
+See [README.md](com.microej.example.components.helloworld/README.md).
 
 # Requirements
-See [README.md](com.microej.example.components.helloWorld/README.md).
+See [README.md](com.microej.example.components.helloworld/README.md).
 
 # Source
-See [README.md](com.microej.example.components.helloWorld/README.md).
+See [README.md](com.microej.example.components.helloworld/README.md).
 
 # Restrictions
-See [README.md](com.microej.example.components.helloWorld/README.md).
+See [README.md](com.microej.example.components.helloworld/README.md).
 
 # Changes
 See [CHANGELOG.md](CHANGELOG.md).
