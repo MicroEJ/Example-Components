@@ -1,0 +1,8 @@
+# Services
+#
+# Copyright 2016 IS2T. All rights reserved.
+# Use of this source code is subject to license terms.
+
+# Services to start (Link with the Registry done from helloworld.properties.list).
+com.microej.example.components.helloworld.user.HelloUserBundle
+com.microej.example.components.helloworld.publisher.HelloPublisherBundle

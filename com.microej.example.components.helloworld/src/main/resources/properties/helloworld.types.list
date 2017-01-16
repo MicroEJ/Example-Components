@@ -1,0 +1,12 @@
+# Types
+#
+# Copyright 2016 IS2T. All rights reserved.
+# Use of this source code is subject to license terms.
+
+# Types to embed in the Java application (not statically linked).
+# Loaded from the services.bundles
+com.microej.example.components.helloworld.user.HelloUserBundle
+com.microej.example.components.helloworld.publisher.HelloPublisherBundle
+
+# Loaded from the helloworld.properties.list
+ej.components.registry.impl.FileRegistry
